@@ -1,3 +1,30 @@
-body {
-    background-color: red;
+  p {
+     font-size: 16px;
+     color: purple;
+     font-family: arial;
+     text-decoration: blink;
 }
+  p.header{
+     font-family: lucida;
+     color: orange;
+}
+  body{
+     width:900px;
+      margin:0 auto 0 auto;
+      padding:5px;
+      border:5px solid #cccccc;
+      background-color: white;
+}
+  h1{
+    font-family: elephant;
+}
+  table, th, td{
+  text-align:left;
+  border:2px solid purple;
+  }
+  caption{
+  font-style:helvetica;
+  font-weight:bold;
+  font-style:oblique;
+  padding:5px;
+ }
