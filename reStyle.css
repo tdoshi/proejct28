@@ -1,0 +1,32 @@
+#name{
+font-family: "cooper black";
+color: black;
+padding-above: 20px;
+font-size: 550%;
+position: absolute; 
+top: 32%;
+left: 30%;
+}
+#cont{
+width: 100%;
+position: relative;
+top: 20%;
+border: 5px ridge purple;
+border-spacing: 30px 0px;
+}
+#gridContainer{
+width: 50%;
+position: absolute; 
+top: 32%;
+left: 25%;
+}
+p{
+text-align: center;
+font-family: garamond;
+}
+br{
+font-size: 175%;
+}
+em{
+font-size: 175%;
+}
