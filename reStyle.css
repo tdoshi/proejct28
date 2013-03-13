@@ -1,18 +1,12 @@
-#name{
+
+name{
 font-family: "cooper black";
 color: black;
 padding-above: 20px;
 font-size: 550%;
-position: absolute; 
+position: absolute;
 top: 32%;
 left: 30%;
-}
-#cont{
-width: 100%;
-position: relative;
-top: 20%;
-border: 5px ridge purple;
-border-spacing: 30px 0px;
 }
 #gridContainer{
 width: 50%;
