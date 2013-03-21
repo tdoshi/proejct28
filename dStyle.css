@@ -1,0 +1,14 @@
+#name{
+font-family: "cooper black";
+color: black;
+padding-above: 20px;
+font-size: 400%;
+position: absolute;
+top: 30%;
+left: 30%;
+}
+.container-fluid{
+width: 100%;
+position: relative;
+top: 50%;
+}

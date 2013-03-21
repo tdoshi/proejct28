@@ -1,0 +1,16 @@
+#name{
+font-family: "cooper black";
+color: black;
+padding-above: 20px;
+font-size: 350%;
+position: absolute;
+top: 20%;
+left: 20%;
+}
+#cont{
+width: 100%;
+position: absolute;
+top: 15%;
+}
+
+
