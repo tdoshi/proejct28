@@ -10,9 +10,21 @@
 <script>
 $(document).ready(function(){
   $(".p1").toggle();
-  $("#duh").click(function(){
+  $(".p2").toggle();
+  $(".p3").toggle();
+  $(".p4").toggle();
+  $("#btn1").click(function(){
     $(".p1").slideToggle();
   });
+  $("#btn2").click(function(){
+    $(".p2").slideToggle();
+  })
+  $("#btn3").click(function(){
+    $(".p3").slideToggle();
+  })
+  $("#btn4").click(function(){
+    $(".p4").slideToggle();
+  })
 ;});
 </script>
 </head>
@@ -34,31 +46,39 @@ $(document).ready(function(){
 </div>
 <div class="row" style="padding-below: 20px; margin-right: 10%; margin-left: 10%;">
   <div class="span4">
-    <p class="p1">These are some things that could happen</p>
-    <a id="duh" class="btn btn-info btn-large" href="#" style="width: 50%; width: 100%; height: 100%; font-size: 400%; border-radius: 20px; padding-above: 100px; line-height: 75px; font-family: garamond;">
+    <p class="p1">The emotional category will contain question-answers, comments, and resources, pertaining to  
+                  PMS and other emotional and psychological changes that girls may encounter. The interface will
+                  be interactive with a unique system that allows the girls to tap their emotions, and then
+                  learn more about what may be causing them. 
+</p>
+    <a id="btn1" class="btn btn-info btn-large" href="#" style="width: 50%; width: 100%; height: 100%; font-size: 400%; border-radius: 20px; padding-above: 100px; line-height: 75px; font-family: garamond;">
       Emotional
     </a>
   </div>
 </div>
 <div class="row" style="margin-right: 10%; margin-left: 10%;">
   <div class="span4">
-    <a class="btn btn-success btn-large" href="#" style="width: 100%; height: 100%; font-size: 400%; border-radius: 20px; padding-above: 100px; line-height: 75px; font-family: garamond;">
+    <p class="p2">Like the emotional category, the physical will contain question-answers, comments, and resources. These, however, will tackle physical changes such as those related to the growth of breats, hair, and body shape, as well as those related to the cycle itself. These changes will specifically pertain to Days 1-4, but will change throughout the program.
+</p>
+    <a id="btn2" class="btn btn-success btn-large" href="#" style="width: 100%; height: 100%; font-size: 400%; border-radius: 20px; padding-above: 100px; line-height: 75px; font-family: garamond;">
       Physical
     </a>
   </div>
 </div>
 <div class="row" style="margin-right: 10%; margin-left: 10%;">
   <div class="span4">
-    <a class="btn btn-danger btn-large" href="#" style="width: 100%; height: 100%; font-size: 400%; border-radius: 20px; paddi\
-ng-above: 100px; line-height: 75px; font-family: garamond;">
+    <p class="p3">The social category will provide access to content as well as a forum that allows girls to connect with others who are facing similar insecurities. With interactive question-answers and resources, girls will be able to face the social concerns that plague them during this time.
+</p>
+    <a id="btn3" class="btn btn-danger btn-large" href="#" style="width: 100%; height: 100%; font-size: 400%; border-radius: 20px; padding-above: 100px; line-height: 75px; font-family: garamond;">
       Social
     </a>
   </div>
 </div>
 <div class="row" style="margin-left: 10%; margin-right: 10%;">
   <div class="span4">
-    <a class="btn btn-warning btn-large" href="#" style="width: 100%; height: 100%; font-size: 400%; border-radius: 20px; padding-above: 100px; line-height: 75px; font-family: garamond;">
-      Biology
+    <p class="p4">For those interested in learning about the biological occurences during the 28 day period, each section will contain images, diagrams, etc. This will help to answer questions and detail that can then avoid confusion.</p>
+    <a id="btn4" class="btn btn-warning btn-large" href="#" style="width: 100%; height: 100%; font-size: 400%; border-radius: 20px; padding-above: 100px; line-height: 75px; font-family: garamond;">
+      Biological
     </a>
   </div>
 </div>
@@ -67,13 +87,13 @@ ng-above: 100px; line-height: 75px; font-family: garamond;">
     <div class="container">
       <div id="toolbar" class="btn-toolbar">
         <div class="btn-group">
-          <a class="btn" href="screen-6f75b33441-start.html">
+          <a class="btn" href="days1-4.html">
             Previous
           </a>
-          <a class="btn" href="screen-22e66de760-home-page.html">
+          <a class="btn" href="index-bootstrap.html">
             Home
           </a>
-          <a class="btn" href="screen-3b5de856a2-days-5-13.html">
+          <a class="btn" href="days1-4.html">
             Next
           </a>
         </div>
